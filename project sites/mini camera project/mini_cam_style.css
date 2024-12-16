@@ -72,3 +72,11 @@ body, html{
 .text-column {
     font-size: 35px;
 }
+
+.james-vid #james_vid {
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:100%;
+}

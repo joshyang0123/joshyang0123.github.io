@@ -1,3 +1,4 @@
+src="https://player.vimeo.com/api/player.js"
 var i = 0;
 var txt = 'mini camera project';
 var speed = 100;
@@ -9,3 +10,4 @@ window.onload = function typewriter() {
         setTimeout(typewriter,speed);
     }
 }
+
