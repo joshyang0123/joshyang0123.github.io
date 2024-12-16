@@ -1,27 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body, html{
     margin:0;
     padding:0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* topnav */
 .topnav-container {
-    width: 100%;
-    margin: 0 auto;
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
 }
 .topnav {
-    width: 100%;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 30%;
 }
-/* topnav links*/
+
 .topnav a {
-    float:left;
-    padding: 14px;
-    color: #e5bc11;
-    text-decoration: none;
-    font-size: 25px;
-    text-align: center;
-    width: 30%;
+  color: white;
+  text-decoration: none; /* Remove underline */
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem; /* Add padding for better click targets */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 } 
 
 /* Header Section */
@@ -33,7 +42,6 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 /* Add some content at the bottom of the video/page */
@@ -41,9 +49,17 @@ body, html{
     position: relative;
     color: white;
     top: 50%;
-    font-style: italic;
-    font-size: 100px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    padding-left: 10%;
+}
+.header-content .title {
+  font-size: 100px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header-content .subtitle {
+  font-size: 35px;
 }
 
 .section {

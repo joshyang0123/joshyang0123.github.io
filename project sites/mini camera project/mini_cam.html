@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html onload="typewriter()">
     <head>
         <link rel="stylesheet" href="/project sites/mini camera project/mini_cam_style.css">
         <script src="/project sites/mini camera project/mini_cam_script.js"></script>
@@ -10,19 +10,25 @@
                 browser does not support video
             </video>
             <div class="overlay">
-                <div class="title">mini camera project</div>
+                <div id="title" onload='typewriter()'></div>
             </div>
         </header>
         
         <section class="description-section">
             <div class="container">
                 <div class="column image-column">
-                    <img src="mini_cam_img/camera.jpeg" alt="">
+                    <img src="mini_cam_img/just cam.PNG" alt="">
                 </div>
                 <div class="column text-column">
                     this project is an  emalgamation of clips and photos from 
                     the smallest camera i have ever owned
                 </div>
+            </div>
+        </section>
+
+        <section class="video-section">
+            <div class="james-vid">
+                <video width="100%" height="auto" controls src="mini_camera_vid/one week with james.mov"></video>
             </div>
         </section>
     </body>
