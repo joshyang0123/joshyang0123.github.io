@@ -44,33 +44,28 @@ body, html{
     font-style: italic;
     font-weight: bold;
 }
+
 .description-section {
-    padding: 4rem 2rem;
+    position: relative;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    padding-bottom: 300px;
-}
-
-.column {
-    flex: 1;
-    min-width: 300px;
-}
-
-.image-column img{
-    width: 50%;
+.description-section #description-background {
+    width: 100%;
     height: auto;
-    float: right;
-    padding-right: 35px;
 }
 
-.text-column {
-    font-size: 35px;
+.description-section .overlay {
+    text-align: left;
+    font-size: 3vw;
+    position: absolute;
+    bottom: 30%;
+    left: 60%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.video-section {
+    background-color: white;
 }
 
 .james-vid #james_vid {
